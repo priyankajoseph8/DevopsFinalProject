@@ -10,7 +10,7 @@ sudo pkill -f runserver
 #kill frontend servers if you are deploying any frontend
 sudo pkill -f tailwind
 sudo pkill -f node
-cd /home/ec2-user/django-aws_cicd/
+cd /home/ec2-user/DevopsFinalProject/
 
  
 
@@ -21,7 +21,7 @@ source venv/bin/activate
  
 
 #install requirements.txt
-pip install -r /home/ec2-user/django-aws_cicd/requirements.txt
+pip install -r /home/ec2-user/DevopsFinalProject/requirements.txt
 
  
 

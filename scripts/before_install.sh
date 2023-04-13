@@ -4,13 +4,13 @@
 sudo rm -rf /home/ec2-user/install
 
 #install CodeDeploy agent
-sudo yum -y update
-sudo yum -y install ruby
-sudo yum -y install wget
-cd /home/ec2-user
-wget https://aws-codedeploy-eu-west-1.s3.amazonaws.com/latest/install
-sudo chmod +x ./install
-sudo ./install auto
+# sudo yum -y update
+# sudo yum -y install ruby
+# sudo yum -y install wget
+# cd /home/ec2-user
+# wget https://aws-codedeploy-eu-west-1.s3.amazonaws.com/latest/install
+# sudo chmod +x ./install
+# sudo ./install auto
 
 #update os & install python3
 sudo yum update -y
@@ -20,4 +20,4 @@ pip3 install --user --upgrade virtualenv
  
 
 #delete app
-sudo rm -rf /home/ec2-user/django-aws_cicd
+sudo rm -rf /home/ec2-user/DevopsFinalProject
