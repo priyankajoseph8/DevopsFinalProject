@@ -5,7 +5,7 @@ files:
     destination: /home/ec2-user/django-aws_cicd
 hooks:
   BeforeInstall:
-      - location: project-management-master/scripts/before_install.sh
+      - location: scripts/before_install.sh
      
   AfterInstall:
-      - location: project-management-master/scripts/after_install.sh
+      - location: scripts/after_install.sh
